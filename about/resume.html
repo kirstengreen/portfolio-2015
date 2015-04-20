@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Hind:600' rel='stylesheet' type='text/css'>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +28,9 @@
                 </div>
                 <div class="nav">
                     <ul>
-                        <li><a href="../index.html">Back</a></li>
+                        <li><a href="../index.html">Work</a></li>
+                        <li><a href="../about/resume.html">About</a></li>
+                        <li><a data-scroll-nav="2">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,12 +38,21 @@
         <div id="content">
             <div class="blue-bg">
                 <div class="container work-title">
-                    <h2>RESUME</h2>
+                    <h2>About</h2>
                 </div>
             </div>
             <div class="lightgold-bg">
-                <div class="container download">
-                    <p><a href="https://www.dropbox.com/s/veus0rqm78vjpjz/kirstengreen-resume.pdf?dl=0">Download PDF</a></p>
+                <div class="container about group">
+                    <div class="col-1">
+                         <p><span class="bold">I am currently looking for work!</span></p>
+                        <ul>
+                            <li><a href="https://www.dropbox.com/s/veus0rqm78vjpjz/kirstengreen-resume.pdf?dl=0">Download Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <p>I graduated from the University of Maryland, Baltimore County with a B.F.A. in Graphic Design. My experience is largely with print design, but I am currently working on expanding my skills through learning more about front-end development as well as product design. I have a passion for traditional crafts and can often be found brushing up on my drawing skills, bookbinding, and geeking out over beautifully executed prints.</p>
+                    </div>
+                
                 </div>
             </div>
             <div class="white-bg">
@@ -84,7 +93,7 @@
                     </div>
                 </div>
             </div>    
-            <div class="blue-bg">
+            <div class="blue-bg" data-scroll-index="2">
                 <div class="container contact group">
                     <h1>Contact Me</h1>
                     <div class="col-1">
@@ -109,4 +118,12 @@
             </div>    
         </footer>
     </body>
+<!--scripts-->
+    <script src="../js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="../js/scrollIt.min.js" type="text/javascript"></script>
+    <script>    
+        $(function(){
+        $.scrollIt();
+        });
+    </script>
 </html>
