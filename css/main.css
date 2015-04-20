@@ -109,6 +109,14 @@ h2 {
     color: rgba(254, 254, 254, .7);
 }
 
+.ion-lg {
+    font-size: 1.5em;
+}
+
+.ion-arrow {
+    font-size: 1em;
+}
+
 a {
     color: rgb(79, 83, 91);
     text-decoration: none;
