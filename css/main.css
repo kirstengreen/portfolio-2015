@@ -117,6 +117,10 @@ h2 {
     font-size: 1em;
 }
 
+.ion-bold {
+    font-weight: 700;
+}
+
 a {
     color: rgb(79, 83, 91);
     text-decoration: none;
