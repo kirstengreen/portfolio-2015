@@ -113,8 +113,17 @@ h2 {
     font-size: 1.5em;
 }
 
-.ion-arrow {
-    font-size: 1em;
+.ion-arrow-left, .ion-arrow-right {
+    font-size: 1.3em;
+    vertical-align: -2px; 
+}
+
+.ion-arrow-left {
+    padding-right: 2px;
+}
+
+.ion-arrow-right {
+    padding-left: 2px;
 }
 
 .ion-bold {
@@ -250,9 +259,12 @@ header {
     padding-top: 110px;
 }
 
-.cover, .img-gallery {
-    width: 100%;
+.top-padding {
     padding-top: 30px;
+}
+
+.cover {
+    width: 100%;
 }
 
 .video-row {
@@ -283,6 +295,11 @@ header {
 
 /* -------------------- WORK CONTENT STYLES */
 
+
+.img-gallery {
+    width: 100%;
+    padding-top: 30px;
+}
 
 .snav-col-1 {
     display: none;
