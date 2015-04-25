@@ -2,7 +2,7 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Arimo:700);
-@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700);
 
 
 /* -------------------- UNIVERSAL STYLES */
@@ -109,6 +109,10 @@ h2 {
     color: rgba(254, 254, 254, .7);
 }
 
+.italic {
+    font-style: italic;
+}
+
 .ion-lg {
     font-size: 1.5em;
 }
@@ -154,7 +158,7 @@ a:hover {
     opacity: 0.75;
 }
 
-.about a, .download a, .secondary-nav a {
+.about a, .work-info a, .download a, .secondary-nav a {
     color: rgb(213, 146, 71);
     text-decoration: none;
     padding-top: 10px;
@@ -167,7 +171,7 @@ a:hover {
     -o-transition: 0.5s;
 }
 
-.about a:hover, .download a:hover, .secondary-nav a:hover {
+.about a:hover, .work-info a:hover, .download a:hover, .secondary-nav a:hover {
     color: rgb(79, 83, 91);
     transition: 0.5s;
     -webkit-transition: 0.5s;
