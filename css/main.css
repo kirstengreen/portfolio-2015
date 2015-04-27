@@ -154,6 +154,14 @@ a:hover {
     -o-transition: 0.5s;
 } 
 
+a:active {
+
+}
+
+a:visited {
+
+}
+
 .work a:hover {
     opacity: 0.75;
 }
