@@ -105,7 +105,7 @@ h2 {
     color: rgb(213, 146, 71);   
 }
 
-.intro p, .work-title p, .contact p {
+.contact p {
     color: rgba(254, 254, 254, .7);
 }
 
@@ -134,9 +134,15 @@ h2 {
     font-weight: 700;
 }
 
+
+/*MAIN LINK STYLES*/
+
+
 a {
-    color: rgb(79, 83, 91);
+    color: rgb(213, 146, 71);
     text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
@@ -146,8 +152,12 @@ a {
     -o-transition: 0.5s;
 }
 
+a:visited {
+    color: rgb(213, 146, 71);
+}
+
 a:hover {
-    color: rgba(254, 254, 254, 0.8);
+    color: rgb(79, 83, 91);
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -155,62 +165,70 @@ a:hover {
 } 
 
 a:active {
-
+    color: rgb(213, 146, 71);
 }
 
-a:visited {
 
+/* HEADER LINKS*/
+
+
+.nav li a {
+    color: rgb(79, 83, 91);
+    font-size: 1em;
 }
+
+.nav li a:visited {
+    color: rgb(79, 83, 91);
+}
+
+.nav li a:hover {
+    color: rgba(254, 254, 254, .9);
+}
+
+.nav li a:active {
+    color: rgb(79, 83, 91);
+}
+
+
+/* BLUE BACKGROUND LINKS*/
+
+
+.contact a {
+    color: rgb(249, 183, 103);
+}
+
+.contact a:visited {
+    color: rgb(249, 183, 103);
+}
+
+.contact a:hover, .contact li a:hover {
+    color: rgba(254, 254, 254, 0.8);
+}
+
+.contact a:active {
+    color: rgb(249, 183, 103);
+}
+
+
+/* OTHER LINK STYLES */
+
 
 .work a:hover {
     opacity: 0.75;
 }
 
-.about a, .work-info a, .download a, .secondary-nav a {
-    color: rgb(213, 146, 71);
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 1.1em;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.about a:hover, .work-info a:hover, .download a:hover, .secondary-nav a:hover {
-    color: rgb(79, 83, 91);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.intro a, .work-title a, .contact a {
-    color: rgb(249, 183, 103);
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 1.1em;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
-.intro a:hover, .work-title a:hover, .contact a:hover {
-    color: rgba(254, 254, 254, 0.8);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
 .text-sized-link a {
-    font-size: 1em;
+    font-size: 1rem;
 }
+
+.video-link a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* COPY STYLES */
+
 
 .caption {
     font-size: .95em;
@@ -239,8 +257,6 @@ header {
 
 .logo {
     float: left;
-    max-height: 40px;
-    max-width: 40px;
     margin-top: 15px;
 }
 
@@ -250,7 +266,7 @@ header {
 
 .nav {
     float: right;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 .nav li {
