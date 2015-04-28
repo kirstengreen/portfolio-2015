@@ -169,26 +169,29 @@ a:active {
 }
 
 
-/* HEADER LINKS*/
+/* HEADER AND FOOTER LINKS*/
 
 
-.nav li a {
+.nav li a, .footer a {
     color: rgb(79, 83, 91);
     font-size: 1em;
 }
 
-.nav li a:visited {
+.nav li a:visited, .footer a:visted {
     color: rgb(79, 83, 91);
 }
 
-.nav li a:hover {
+.nav li a:hover, .footer a:hover {
     color: rgba(254, 254, 254, .9);
 }
 
-.nav li a:active {
+.nav li a:active, .footer a:active {
     color: rgb(79, 83, 91);
 }
 
+.footer a {
+    text-decoration: underline;
+}
 
 /* BLUE BACKGROUND LINKS*/
 
